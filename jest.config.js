@@ -1,8 +1,8 @@
 module.exports = {
   bail: true,
-  convergeProvider: "v8",
+  coverageProvider: "v8",
 
-  testeMatch: [
+  testMatch: [
     "<rootDir>/src/**/*.spec.js"
-  ]
+  ],
 }
